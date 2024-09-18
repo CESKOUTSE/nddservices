@@ -317,6 +317,7 @@ h6 {
 
 /* Mobile Navigation */
 @media (max-width: 1199px) {
+  
   .mobile-nav-toggle {
     color: var(--nav-color);
     font-size: 28px;
@@ -328,7 +329,7 @@ h6 {
 
   .navmenu {
     padding: 0;
-    z-index: 9997;
+    z-index: 9900;
   }
 
   .navmenu ul {
@@ -797,7 +798,6 @@ section,
   align-items: center;
 }
 
-
 .hero::before {
   content: '';
   background-image: url(../img/Arrière\ plan\ page\ acceuil.png);
@@ -812,6 +812,7 @@ right: 0;
 opacity: 0.5;
 }
 
+
 .hero h1 {
   margin: 0;
   font-size: 48px;
@@ -823,9 +824,11 @@ opacity: 0.5;
 .hero p {
   color: color-mix(in srgb, var(--default-color), transparent 30%);
   margin: 5px 0 30px 0;
-  font-size: 22px;
+  padding: 25px 30px 15px 0;
+  font-size: 17px;
+  text-align: justify;
   line-height: 1.3;
-  font-weight: 600;
+  font-weight: 500;
   position: relative;
 }
 
@@ -2100,10 +2103,6 @@ opacity: 0.5;
   min-height: 730px;
 }
 
-#logo{
-  width: 100%;
-  height: 90px;
-}
 
 #agreed{
   margin: 0px auto;
@@ -2177,29 +2176,32 @@ legend{
   width: 100%;
   background: url(../img/Slide\ 1\ page\ acceuil.png) center/cover;
   
-  animation: glisse 50s linear infinite normal;
+  animation: glisse 80s linear infinite normal;
   animation-fill-mode: both;
 }
 @keyframes glisse {
   0% {
+    background: url(../img/Slide\ 1\ page\ acceuil.png) center/cover;
+  }
+  20% {
     background: url(../img/Slide\ 2\ page\ acceuil.png) center/cover;
   }
-  14% {
+  40% {
     background: url(../img/Slide\ 3\ page\ acceuil.png) center/cover;
   }
-  27% {
+  60% {
     background: url(../img/Slide\ 4\ page\ acceuil.png) center/cover;
   }
-  40% {
+  80% {
     background: url(../img/Slide\ 5\ page\ acceuil.png) center/cover;
   }
-  53% {
+  85% {
     background: url(../img/Slide\ 6\ page\ acceuil.png) center/cover;
   }
-  66% {
+  90% {
     background: url(../img/Slide\ 7\ page\ acceuil.png) center/cover;
   }
-  79% {
+  100% {
     background: url(../img/Slide\ 8\ page\ acceuil.png) center/cover;
   }
   100% {
@@ -2252,5 +2254,21 @@ legend{
   color: #28a745;
 }
 
+#moving-service-desc, #delivery-service-desc, #junk-service-desc{
+  text-align: justify;
+}
 
+#story-text, #values-text, #services-text, #community-text, #choose-us-text{
+  text-align: justify;
+}
+
+#logo{
+ height: 80px;
+}
+
+@media (max-width: 640px) {
+  #logo{
+    height: 50px;
+  }
+}
 
