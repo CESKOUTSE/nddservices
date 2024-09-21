@@ -1388,8 +1388,9 @@ opacity: 0.5;
 # formulaire
 --------------------------------------------------------------*/
 #formde{
-  margin: 0px auto;
+  margin: 15px auto;
   padding: 25px;
+  border-radius: 30px;
 }
 
 #bg-about{
@@ -1444,7 +1445,7 @@ opacity: 0.5;
 }
 
 #sous-titre, #section-title, #contact-title{
-  margin-top: 100px; 
+  margin-top: 170px; 
 }
 
 #papa{
@@ -1557,7 +1558,6 @@ legend{
 }
 
 #logo{
- height: 80px;
 }
 
 @media (max-width: 640px) {
