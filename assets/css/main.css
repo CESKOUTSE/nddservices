@@ -2176,7 +2176,7 @@ legend{
   width: 100%;
   background: url(../img/Slide\ 1\ page\ acceuil.png) center/cover;
   
-  animation: glisse 80s linear infinite normal;
+  animation: glisse 100s linear infinite normal;
   animation-fill-mode: both;
 }
 @keyframes glisse {
@@ -2271,4 +2271,8 @@ legend{
     height: 50px;
   }
 }
+
+#boxdem{
+  margin-bottom: 20px;
+ }
 
