@@ -1443,7 +1443,7 @@ opacity: 0.5;
   
 }
 
-#sous-titre{
+#sous-titre, #section-title, #contact-title{
   margin-top: 100px; 
 }
 
