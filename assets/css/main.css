@@ -441,6 +441,8 @@ h6 {
   .mobile-nav-active .navmenu>ul {
     display: block;
   }
+
+  
 }
 
 /*--------------------------------------------------------------
@@ -539,7 +541,7 @@ h6 {
 
 .footer .footer-links {
   margin-bottom: 30px;
-  margin-left: 50px;
+  /*margin-left: 50px;*/
 }
 
 .footer .footer-links ul {
@@ -1555,9 +1557,6 @@ legend{
 
 #story-text, #values-text, #services-text, #community-text, #choose-us-text{
   text-align: justify;
-}
-
-#logo{
 }
 
 @media (max-width: 640px) {
